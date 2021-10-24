@@ -1,0 +1,33 @@
+#parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 40px 15px;
+    width: 99%;
+    background-image: linear-gradient(to right, rgb(156, 154, 255), rgb(117, 204, 245));
+}
+
+.box {
+    margin: 15px 15px;
+    border-radius: 0.5em;
+    width: 22%;
+    height: fit-content;
+    padding: 5px 5px;
+    background-color: rgb(15, 87, 241);
+    box-shadow: 5px 1px 15px 0.2px #8b9290;
+    transition: 0.5s;
+}
+
+.box h3,
+h4 {
+    color: rgb(252, 248, 248);
+}
+
+.box:hover {
+    transform: rotateY(360deg);
+}
+
+.im {
+    width: 100%;
+}
